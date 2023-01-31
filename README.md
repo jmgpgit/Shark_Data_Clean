@@ -49,7 +49,8 @@ By analysing the progress through the years, we find that:
 Notably, there is an increase in provoked attacks in the 1970s, but a decrease in total attacks. Both behaviours could be explained by the release and popularity of the Jaws movies (1975, 1978, ...).
 - Fatal encounters are steadily decreasing
 
-![Shark attacks in modern times](graph_type.png "Shark attacks in modern times")
+![Shark attacks in modern times by type](graph_type.png "Shark attacks in modern times by type")
+![Fatality of Shark attacks](graph_fatal.png "Fatality of Shark attacks")
 
 ### To Dos...
 
