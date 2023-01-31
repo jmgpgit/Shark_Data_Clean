@@ -12,7 +12,7 @@ The process starts with a broad clean of all the strings in the dataset - stripp
 
 Next, we look to remove as much useless data as possible. To do so, we identify all the rows with a significant amount of NaN values, which handily removes over 75% of the 'data'.
 
-Notice that both the 'Year' and 'Case Number' columns are mostly intact and contain valuable date/sorting information. We can fix the few missing values with context and drop all the values that could easily be very unreliable, especially those before the year 1700. Since case number is a good intefying number, we reconstruct it using regex to extract the date values, as well as the scattered extra information stored within it. We can then drop all auxiliary columns.
+Notice that both the 'Year' and 'Case Number' columns are mostly intact and contain valuable date/sorting information. We can fix the few missing values with context and drop all the values that could easily be very unreliable, especially those before the year 1700. Since case number is a good identifying number, we reconstruct it using regex to extract the date values, as well as the scattered extra information stored within it. We can then drop all auxiliary columns.
 
 We then go into the inner columns, such as Sex, Age and attack Type, cleaning up uncertain/undecidable/unknown values under a single label: 'Unknown'.
 
